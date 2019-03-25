@@ -23,7 +23,8 @@ class App extends React.Component {
 
 class Child extends React.Component {
     componentDidMount() {
-        console.log("wywołanie componentDidMount w dziecku")
+        console.log("wywołanie componentDidMount w dziecku
+        adas")
     }
     render() {
         return (
@@ -34,3 +35,4 @@ class Child extends React.Component {
 
 
 ReactDOM.render(<App one={this.state.exist} />, document.getElementById('root'))
+cos tam nowego jest
