@@ -27,10 +27,10 @@ class Child extends React.Component {
     }
     render() {
         return (
-            <h1>Dziecko</h1>
+            <h1>Dziecko jakies tam kto to wie </h1>
         )
     }
 }
 
 
-ReactDOM.render(<App />, document.getElementById('root'))
+ReactDOM.render(<App one={this.state.exist} />, document.getElementById('root'))
